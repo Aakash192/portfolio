@@ -72,18 +72,22 @@ function createProjectCard(project) {
     `;
 }
 
-// Render projects
-document.getElementById('projectsGrid').innerHTML = projects.map(project => createProjectCard(project)).join('');
+document.addEventListener("DOMContentLoaded", function () {
+    const projectsGrid = document.getElementById('projectsGrid');
+    if (projectsGrid) {
+        projectsGrid.innerHTML = projects.map(project => createProjectCard(project)).join('');
+    }
 
-// Update copyright year
-document.getElementById('currentYear').textContent = new Date().getFullYear();
-
-// Smooth scrolling for navigation
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
+    // Smooth scrolling
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
         });
     });
+
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
 });
+
