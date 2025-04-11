@@ -39,7 +39,7 @@ const projects = [
         image: "https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
         technologies: ["Kubernetes", "Docker", "DevOps"],
         githubUrl: "https://github.com/aakashsuryavanshi/k8s-platform"
-    }
+    },
     {
         id: 6,
         title: "Fake News Detection",
