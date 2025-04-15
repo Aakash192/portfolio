@@ -36,7 +36,7 @@ const projects = [
         id: 5,
         title: "Chest X-Ray Classification using CNN and Computer Vision",
         description: "In this project, I built a chest X-ray classification system using transfer learning with a pretrained ResNet18 to distinguish NORMAL from PNEUMONIA cases. I applied data augmentation and normalization on a well-structured dataset, fine-tuning the model with a batch size of 4 over 10 epochs. The model achieved a test accuracy of 95%, and I implemented a visualization tool to display test images alongside their predicted and true labels.",
-        image: "https://unsplash.com/photos/black-and-white-abstract-painting-tHS9j3HWT1s",
+        image: "https://images.unsplash.com/photo-1584555684040-bad07f46a21f?q=80&w=1989&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         technologies: ["Machine Learning Model", "Supervised learning", "Computer Vision"],
         githubUrl: "https://github.com/Aakash192/chest_xray_classification"
     },
