@@ -55,7 +55,16 @@ const projects = [
     image: "https://images.unsplash.com/photo-1585250003680-b12dbff01e65?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     technologies: ["NLP", "TF-IDF", "Sentiment Analysis", "Scikit-learn"],
     githubUrl: "https://github.com/Aakash192/twitter-sentiment-analysis.git"
+},
+    {
+    id: 8,
+    title: "PID Diagram Document Analysis using ML & CV",
+    description: "Automated the extraction of components and text from P&ID diagrams using YOLOv8 and NLP. Achieved 98% detection accuracy and deployed the system on Azure using Docker, Kubernetes, and Prometheus.",
+    image: "https://images.unsplash.com/photo-1629904853716-f0bc54eea481?auto=format&fit=crop&w=1350&q=80",
+    technologies: ["YOLOv8", "NLP", "Machine Learning"],
+    githubUrl: "https://github.com/aakashsuryavanshi/pid-diagram-analysis"
 }
+
 ];
 
 // Function to create project cards
