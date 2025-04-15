@@ -28,7 +28,7 @@ const projects = [
         id: 4,
         title: "Cloud Infrastructure Automation",
         description: "Automated AWS infrastructure deployment using Terraform, reducing deployment time by 60% and ensuring consistency across environments.",
-        image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+        image: "https://unsplash.com/photos/person-in-black-and-white-plaid-shirt-SrHKQxGuuqQ",
         technologies: ["Terraform", "AWS", "IaC"],
         githubUrl: "https://github.com/aakashsuryavanshi/cloud-automation"
     },
