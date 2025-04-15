@@ -52,7 +52,7 @@ const projects = [
     id: 7,
     title: "Twitter Sentiment Analysis with NLP",
     description: "Performed sentiment analysis on Twitter data using NLP techniques such as tokenization, stopword removal, and TF-IDF. Trained and evaluated machine learning models to classify tweets as Positive, Negative, or Neutral.",
-    image: "https://images.unsplash.com/photo-1517260911058-0fcfd733702f?auto=format&fit=crop&w=1350&q=80",
+    image: "https://images.unsplash.com/photo-1585250003680-b12dbff01e65?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     technologies: ["NLP", "TF-IDF", "Sentiment Analysis", "Scikit-learn"],
     githubUrl: "https://github.com/Aakash192/twitter-sentiment-analysis.git"
 }
