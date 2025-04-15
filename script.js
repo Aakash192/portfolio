@@ -46,7 +46,7 @@ const projects = [
         description: "Developed a machine learning pipeline to detect fake news using Random Forest, achieving reliable classification performance through cross-validation. Applied advanced preprocessing techniques including class balancing, feature scaling, and correlation-based feature selection to optimize model accuracy.Utilized K-Fold Cross-Validation",
         image: "https://images.unsplash.com/photo-1495020689067-958852a7765e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmV3c3xlbnwwfHwwfHx8MA%3D%3D",
         technologies: ["ML Model", "Supervised learning", "NLP"],
-        githubUrl: "https://github.com/aakashsuryavanshi/k8s-platform"
+        githubUrl: "https://github.com/Aakash192/fake_news"
     },
    {
     id: 7,
