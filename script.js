@@ -50,11 +50,11 @@ const projects = [
     },
    {
     id: 7,
-    title: "NLP-Based Document Classification",
-    description: "Built a text classification system using NLP techniques such as tokenization, TF-IDF, and supervised learning to categorize unstructured documents. Implemented visualizations for word frequency and model accuracy.",
-    image: "https://images.unsplash.com/photo-1553729459-efe14ef6055d?auto=format&fit=crop&w=1350&q=80",
-    technologies: ["NLP", "Scikit-learn", "TF-IDF", "Supervised Learning"],
-    githubUrl: "https://github.com/aakashsuryavanshi/nlp-fake-news_detection"
+    title: "Twitter Sentiment Analysis with NLP",
+    description: "Performed sentiment analysis on Twitter data using NLP techniques such as tokenization, stopword removal, and TF-IDF. Trained and evaluated machine learning models to classify tweets as Positive, Negative, or Neutral.",
+    image: "https://images.unsplash.com/photo-1517260911058-0fcfd733702f?auto=format&fit=crop&w=1350&q=80",
+    technologies: ["NLP", "TF-IDF", "Sentiment Analysis", "Scikit-learn"],
+    githubUrl: "https://github.com/aakashsuryavanshi/twitter-sentiment-analysis"
 }
 ];
 
