@@ -6,7 +6,7 @@ const projects = [
         description: "Reduced login redundancies by 70% for Wayfinders users by deploying SSO integration using KeyCloak.",
         image: "https://images.unsplash.com/photo-1584433305355-9cb73387fc61?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
         technologies: ["KeyCloak", "OAuth2", "Security"],
-        githubUrl: "https://github.com/aakashsuryavanshi/sso-solution"
+        github: "Capstone Project"
     },
     {
         id: 2,
