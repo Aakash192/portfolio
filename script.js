@@ -55,7 +55,7 @@ const projects = [
         image: "https://images.unsplash.com/photo-1581090700227-1e8b1f94f533?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
         technologies: ["Machine Learning Model", "Supervised learning", "Computer Vision", ""],
         githubUrl: "https://github.com/Aakash192/chest_xray_classification"
-    },
+    }
 ];
 
 // Function to create project cards
