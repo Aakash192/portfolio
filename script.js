@@ -13,7 +13,7 @@ const projects = [
         title: "Travel Planner Web Application",
         description: "Collaboratively built a responsive travel planning web app using HTML, CSS, JavaScript, and Streamlit. Designed high-fidelity GUI prototypes with Canva, implemented multi-page navigation, and integrated search features. Tackled UI/UX optimization for a smooth and intuitive travel booking experience.",
         image: "https://images.unsplash.com/photo-1502920917128-1aa500764ce7?auto=format&fit=crop&w=1350&q=80",
-        technologies: ["HTML", "CSS", "JavaScript", "Streamlit", "Beautiful soup],
+        technologies: ["HTML", "CSS", "JavaScript", "Streamlit", "Beautiful soup"],
         githubUrl: "https://github.com/Aakash192/travel-planner" 
     },
     {
