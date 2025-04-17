@@ -10,11 +10,11 @@ const projects = [
     },
     {
         id: 2,
-        title: "Fitness Management Application",
-        description: "Developed a full-stack application using Python (Django), MySQL, and HTML/CSS/Bootstrap to assist users in achieving fitness goals.",
-        image: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-        technologies: ["Python", "Django", "MySQL", "Bootstrap"],
-        githubUrl: "https://github.com/aakashsuryavanshi/fitness-app"
+        title: "Travel Planner Web Application",
+        description: "Collaboratively built a responsive travel planning web app using HTML, CSS, JavaScript, and Streamlit. Designed high-fidelity GUI prototypes with Canva, implemented multi-page navigation, and integrated search features. Tackled UI/UX optimization for a smooth and intuitive travel booking experience.",
+        image: "https://images.unsplash.com/photo-1502920917128-1aa500764ce7?auto=format&fit=crop&w=1350&q=80",
+        technologies: ["HTML", "CSS", "JavaScript", "Streamlit", "Beautiful soup],
+        githubUrl: "https://github.com/Aakash192/travel-planner" 
     },
     {
         id: 3,
