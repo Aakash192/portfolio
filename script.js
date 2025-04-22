@@ -70,7 +70,7 @@ const projects = [
 // Function to create project cards
 function createProjectCard(project) {
     // List of project IDs where the GitHub link should be hidden
-    const excludedIds = [1, 4];
+    const excludedIds = [1, 3, 4];
 
     return `
         <div class="project-card">
