@@ -8,9 +8,10 @@ My personal portfolio: a single page static site built with plain HTML, CSS and 
 
 | Section | Content |
 |---------|---------|
-| Hero | Name, one line summary and links to LinkedIn and email |
+| Hero | Name, headline, links to LinkedIn, GitHub and email, resume download and section links |
 | About | Short professional summary |
 | Skills | Grouped by area: cloud platforms, infrastructure as code, containerization, data visualization, programming |
+| Experience | Current and recent roles |
 | Projects | Cards with a description and a link to the code, generated from data in `script.js` |
 | Volunteering | IT support and volunteer roles |
 | Education | Timeline of my three qualifications |
@@ -42,4 +43,8 @@ The site is hosted with GitHub Pages.
 index.html    Page structure and content
 styles.css    Layout, colours and the mobile breakpoint
 script.js     Project data, card rendering, smooth scroll
+images/       Project cover images and favicon
+Aakash_Suryavanshi_Resume.pdf   Resume linked from the header
 ```
+
+To update the resume, replace `Aakash_Suryavanshi_Resume.pdf` with a new file of the same name.
