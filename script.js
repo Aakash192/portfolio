@@ -1,128 +1,127 @@
-// Project data
+// Project data. Projects are shown in this order.
+// Add a githubUrl to show a "View code" link on the card.
 const projects = [
     {
-        id: 1,
-        title: "Single Sign-On (SSO) Solution",
-        description: "Reduced login redundancies by 70% for Wayfinders users by deploying SSO integration using KeyCloak.",
-        image: "https://images.unsplash.com/photo-1584433305355-9cb73387fc61?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-        technologies: ["KeyCloak", "OAuth2", "Security"],
-        github: "Capstone Project"
+        title: "Franquicia Boost AI Chatbot",
+        description: "Production RAG chatbot for Franquicia Boost's website. It answers questions from franchise disclosure documents, including their fee tables, and returns exact answers for known questions before falling back to retrieval. Deployed on AWS EC2 with Gunicorn and Nginx and embedded in the company's WordPress site.",
+        image: "images/covers/franquicia-chatbot.svg",
+        technologies: ["Python", "Flask", "ChromaDB", "OpenAI API", "AWS EC2"],
+        githubUrl: "https://github.com/Aakash192/FB_Bot_Langchain"
     },
     {
-        id: 2,
-        title: "Travel Planner Web Application",
-        description: "Collaboratively built a responsive travel planning web app using HTML, CSS, JavaScript, and Streamlit. Designed high-fidelity GUI prototypes with Canva, implemented multi-page navigation, and integrated search features. Tackled UI/UX optimization for a smooth and intuitive travel booking experience.",
-        image: "https://images.unsplash.com/photo-1483450388369-9ed95738483c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        technologies: ["HTML", "CSS", "JavaScript", "Streamlit", "Beautiful soup"],
-        githubUrl: "https://github.com/Aakash192/travel-planner" 
+        title: "Azure Bicep Pipeline",
+        description: "Reusable Bicep templates for an Azure static website, deployed by GitHub Actions to a staging environment first and then to production behind a manual approval gate.",
+        image: "images/covers/azure-bicep.svg",
+        technologies: ["Azure", "Bicep", "GitHub Actions", "IaC"],
+        githubUrl: "https://github.com/Aakash192/azure-bicep-pipeline"
     },
     {
-        id: 3,
-        title: "Predictive Analysis of Student Dropouts",
-        description: "Created a machine learning model to predict student dropouts using supervised learning algorithms and visualized insights with Power BI.",
-        image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-        technologies: ["Machine Learning", "Supervised Learning", "Power BI"],
+        title: "Azure Infrastructure with Terraform and Ansible",
+        description: "Eight Terraform modules build a multi VM Azure environment with a load balancer, PostgreSQL, monitoring and backups. Terraform then triggers Ansible roles that configure the Linux servers: data disks, users, sudo policy and Apache.",
+        image: "images/covers/terraform-ansible.svg",
+        technologies: ["Terraform", "Ansible", "Azure", "Linux"],
+        githubUrl: "https://github.com/Aakash192/terraform_ansible_project"
     },
     {
-        id: 4,
-        title: "Cloud Infrastructure Automation",
-        description: "Automated AWS infrastructure deployment using Terraform, reducing deployment time by 60% and ensuring consistency across environments.",
-        image: "https://images.unsplash.com/vector-1739806650990-159542e8d2ae?q=80&w=2360&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        technologies: ["Terraform", "AWS", "IaC"],
+        title: "AWS CI/CD for a Java Web App",
+        description: "A Java web app developed on Amazon EC2, with Maven dependencies served from AWS CodeArtifact and builds run by AWS CodeBuild that package the app as a WAR artifact.",
+        image: "images/covers/aws-java-cicd.svg",
+        technologies: ["AWS CodeBuild", "CodeArtifact", "EC2", "Maven", "Java"],
+        githubUrl: "https://github.com/Aakash192/nextwork-web-project"
     },
     {
-        id: 5,
-        title: "Chest X-Ray Classification using CNN and Computer Vision",
-        description: "In this project, I built a chest X-ray classification system using transfer learning with a pretrained ResNet18 to distinguish NORMAL from PNEUMONIA cases. I applied data augmentation and normalization on a well-structured dataset, fine-tuning the model with a batch size of 4 over 10 epochs. The model achieved a test accuracy of 95%, and I implemented a visualization tool to display test images alongside their predicted and true labels.",
-        image: "https://images.unsplash.com/photo-1584555684040-bad07f46a21f?q=80&w=1989&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        technologies: ["Machine Learning Model", "Supervised learning", "Computer Vision"],
+        title: "PetroScan: P&ID Diagram Analysis (SAIT Capstone)",
+        description: "Proof of concept for automated P&ID diagram analysis using YOLOv8 object detection and OCR. Served inference through a Dockerized Flask microservice and explored deployment on Azure. Presented at YYC DataCon Future Summit 2025.",
+        image: "images/covers/petroscan.svg",
+        technologies: ["YOLOv8", "OCR", "Docker", "Flask", "Computer Vision"],
+        githubUrl: "https://github.com/Aakash192/pid-diagram-analysis"
+    },
+    {
+        title: "Chest X-Ray Classification",
+        description: "Fine-tuned a pretrained ResNet18 with transfer learning to classify chest X-rays as normal or pneumonia, using data augmentation and ImageNet normalization. Reached 95% test accuracy and built a visualization of predicted versus true labels.",
+        image: "images/covers/chest-xray.svg",
+        technologies: ["PyTorch", "ResNet18", "Transfer Learning", "Computer Vision"],
         githubUrl: "https://github.com/Aakash192/chest_xray_classification"
     },
     {
-        id: 6,
+        title: "Twitter Sentiment Analysis with NLP",
+        description: "Classified tweets as Positive, Negative or Neutral with NLTK preprocessing (tokenization, stopword removal, stemming) and a Multinomial Naive Bayes model on bag of words features, reaching 77% accuracy on 12,339 validation tweets. Compared against a VADER lexicon baseline.",
+        image: "images/covers/twitter-sentiment.svg",
+        technologies: ["NLP", "NLTK", "Naive Bayes", "Scikit-learn"],
+        githubUrl: "https://github.com/Aakash192/twitter-sentiment-analysis"
+    },
+    {
         title: "Fake News Detection",
         description: "Compared Random Forest, Logistic Regression and SVM for fake news detection with class balancing, correlation based feature selection, K-Fold cross validation and grid search tuning. Diagnosed why the models scored a suspicious 100%: the article subject category leaked the label. Documented a text based TF-IDF redesign to fix it.",
-        image: "https://images.unsplash.com/photo-1495020689067-958852a7765e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmV3c3xlbnwwfHwwfHx8MA%3D%3D",
-        technologies: ["ML Model", "Supervised learning", "NLP"],
+        image: "images/covers/fake-news.svg",
+        technologies: ["Scikit-learn", "Supervised Learning", "NLP"],
         githubUrl: "https://github.com/Aakash192/fake_news"
     },
-   {
-    id: 7,
-    title: "Twitter Sentiment Analysis with NLP",
-    description: "Classified tweets as Positive, Negative or Neutral with NLTK preprocessing (tokenization, stopword removal, stemming) and a Multinomial Naive Bayes model on bag of words features, reaching 77% accuracy on 12,339 validation tweets. Compared against a VADER lexicon baseline.",
-    image: "https://images.unsplash.com/photo-1585250003680-b12dbff01e65?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    technologies: ["NLP", "NLTK", "Naive Bayes", "Scikit-learn"],
-    githubUrl: "https://github.com/Aakash192/twitter-sentiment-analysis.git"
-},
     {
-    id: 8,
-    title: "PID Diagram Document Analysis using ML & CV",
-    description: "Automated the extraction of components and text from P&ID diagrams using YOLOv8 and NLP. Achieved 98% detection accuracy.",
-    image: "https://images.unsplash.com/photo-1629904853716-f0bc54eea481?auto=format&fit=crop&w=1350&q=80",
-    technologies: ["YOLOv8", "NLP", "Machine Learning"],
-    githubUrl: "https://github.com/Aakash192/pid-diagram-analysis.git"
-}
-
+        title: "Single Sign-On (SSO) Solution",
+        description: "Reduced login redundancies by 70% for Wayfinders users by deploying SSO integration using KeyCloak.",
+        image: "images/covers/sso.svg",
+        technologies: ["KeyCloak", "OAuth2", "Security"]
+    },
+    {
+        title: "Cloud Infrastructure Automation",
+        description: "Automated AWS infrastructure deployment using Terraform, reducing deployment time by 60% and ensuring consistency across environments.",
+        image: "images/covers/cloud-automation.svg",
+        technologies: ["Terraform", "AWS", "IaC"]
+    },
+    {
+        title: "Travel Planner Web Application",
+        description: "Collaboratively built a responsive travel planning web app using HTML, CSS, JavaScript, and Streamlit. Designed high-fidelity GUI prototypes with Canva, implemented multi-page navigation, and integrated search features. Tackled UI/UX optimization for a smooth and intuitive travel booking experience.",
+        image: "images/covers/travel-planner.svg",
+        technologies: ["HTML", "CSS", "JavaScript", "Streamlit", "Beautiful Soup"],
+        githubUrl: "https://github.com/Aakash192/travel-planner"
+    },
+    {
+        title: "Predictive Analysis of Student Dropouts",
+        description: "Created a machine learning model to predict student dropouts using supervised learning algorithms and visualized insights with Power BI.",
+        image: "images/covers/student-dropout.svg",
+        technologies: ["Machine Learning", "Supervised Learning", "Power BI"]
+    }
 ];
 
-// Function to create project cards
+const GITHUB_ICON = `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>`;
+
+// Build one project card
 function createProjectCard(project) {
-    // List of project IDs where the GitHub link should be hidden
-    const excludedIds = [1, 3, 4];
+    const link = project.githubUrl
+        ? `<a href="${project.githubUrl}" target="_blank" rel="noopener" class="github-link">${GITHUB_ICON} View code</a>`
+        : '';
 
     return `
-        <div class="project-card">
-            <img src="${project.image}" alt="${project.title}">
+        <article class="project-card">
+            <img src="${project.image}" alt="" loading="lazy">
             <div class="project-content">
                 <h3>${project.title}</h3>
                 <p>${project.description}</p>
                 <div class="technologies">
                     ${project.technologies.map(tech => `<span class="tech-tag">${tech}</span>`).join('')}
                 </div>
-
-                ${
-                    // Only show GitHub link if the ID is NOT in the excluded list
-                    !excludedIds.includes(project.id) && project.githubUrl
-                    ? `<div class="project-links">
-                        <a href="${project.githubUrl}" target="_blank" class="github-link">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                                 viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                 stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5
-                                         .08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35
-                                         0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8
-                                         0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0
-                                         3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5
-                                         6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22
-                                         1.23-.15 1.85v4"/>
-                                <path d="M9 18c-4.51 2-5-2-7-2"/>
-                            </svg>
-                            View on GitHub
-                        </a>
-                    </div>`
-                    : '' // If it's excluded, show nothing here
-                }
+                ${link}
             </div>
-        </div>
+        </article>
     `;
 }
 
 document.addEventListener("DOMContentLoaded", function () {
     const projectsGrid = document.getElementById('projectsGrid');
     if (projectsGrid) {
-        projectsGrid.innerHTML = projects.map(project => createProjectCard(project)).join('');
+        projectsGrid.innerHTML = projects.map(createProjectCard).join('');
     }
 
-    // Smooth scrolling
+    // Smooth scrolling for in page links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
+            const target = document.querySelector(this.getAttribute('href'));
+            if (!target) return;
             e.preventDefault();
-            document.querySelector(this.getAttribute('href')).scrollIntoView({
-                behavior: 'smooth'
-            });
+            target.scrollIntoView({ behavior: 'smooth' });
         });
     });
 
     document.getElementById('currentYear').textContent = new Date().getFullYear();
 });
-
