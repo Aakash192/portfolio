@@ -22,7 +22,6 @@ const projects = [
         description: "Created a machine learning model to predict student dropouts using supervised learning algorithms and visualized insights with Power BI.",
         image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
         technologies: ["Machine Learning", "Supervised Learning", "Power BI"],
-        githubUrl: "https://github.com/aakashsuryavanshi/student-dropout-prediction"
     },
     {
         id: 4,
@@ -30,7 +29,6 @@ const projects = [
         description: "Automated AWS infrastructure deployment using Terraform, reducing deployment time by 60% and ensuring consistency across environments.",
         image: "https://images.unsplash.com/vector-1739806650990-159542e8d2ae?q=80&w=2360&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         technologies: ["Terraform", "AWS", "IaC"],
-        githubUrl: "https://github.com/aakashsuryavanshi/cloud-automation"
     },
     {
         id: 5,
@@ -43,7 +41,7 @@ const projects = [
     {
         id: 6,
         title: "Fake News Detection",
-        description: "Developed a machine learning pipeline to detect fake news using Random Forest, achieving reliable classification performance through cross-validation. Applied advanced preprocessing techniques including class balancing, feature scaling, and correlation-based feature selection to optimize model accuracy.Utilized K-Fold Cross-Validation",
+        description: "Compared Random Forest, Logistic Regression and SVM for fake news detection with class balancing, correlation based feature selection, K-Fold cross validation and grid search tuning. Diagnosed why the models scored a suspicious 100%: the article subject category leaked the label. Documented a text based TF-IDF redesign to fix it.",
         image: "https://images.unsplash.com/photo-1495020689067-958852a7765e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmV3c3xlbnwwfHwwfHx8MA%3D%3D",
         technologies: ["ML Model", "Supervised learning", "NLP"],
         githubUrl: "https://github.com/Aakash192/fake_news"
@@ -51,9 +49,9 @@ const projects = [
    {
     id: 7,
     title: "Twitter Sentiment Analysis with NLP",
-    description: "Performed sentiment analysis on Twitter data using NLP techniques such as tokenization, stopword removal, and TF-IDF. Trained and evaluated machine learning models to classify tweets as Positive, Negative, or Neutral.",
+    description: "Classified tweets as Positive, Negative or Neutral with NLTK preprocessing (tokenization, stopword removal, stemming) and a Multinomial Naive Bayes model on bag of words features, reaching 77% accuracy on 12,339 validation tweets. Compared against a VADER lexicon baseline.",
     image: "https://images.unsplash.com/photo-1585250003680-b12dbff01e65?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    technologies: ["NLP", "TF-IDF", "Sentiment Analysis", "Scikit-learn"],
+    technologies: ["NLP", "NLTK", "Naive Bayes", "Scikit-learn"],
     githubUrl: "https://github.com/Aakash192/twitter-sentiment-analysis.git"
 },
     {
