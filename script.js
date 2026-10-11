@@ -9,13 +9,6 @@ const projects = [
         githubUrl: "https://github.com/Aakash192/PermitPilot"
     },
     {
-        title: "Franquicia Boost AI Chatbot",
-        description: "Production RAG chatbot for Franquicia Boost's website. It answers questions from franchise disclosure documents, including their fee tables, and returns exact answers for known questions before falling back to retrieval. Deployed on AWS EC2 with Gunicorn and Nginx and embedded in the company's WordPress site.",
-        image: "images/covers/franquicia-chatbot.svg",
-        technologies: ["Python", "Flask", "ChromaDB", "OpenAI API", "AWS EC2"],
-        githubUrl: "https://github.com/Aakash192/FB_Bot_Langchain"
-    },
-    {
         title: "Azure Bicep Pipeline",
         description: "Reusable Bicep templates for an Azure static website, deployed by GitHub Actions to a staging environment first and then to production behind a manual approval gate.",
         image: "images/covers/azure-bicep.svg",
