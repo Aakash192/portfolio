@@ -310,6 +310,18 @@ section h2 {
     background-color: white;
 }
 
+.cert-item {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.cert-item img {
+    width: 88px;
+    height: auto;
+    flex-shrink: 0;
+}
+
 /* Volunteering section */
 .volunteering {
     background-color: #f8f9fa;
@@ -445,5 +457,9 @@ footer a:hover {
     .volunteering-item,
     .education-item {
         padding: 1.2rem;
+    }
+
+    .cert-item img {
+        width: 64px;
     }
 }
