@@ -2,7 +2,7 @@
 
 My personal portfolio: a single page static site built with plain HTML, CSS and JavaScript. There is no framework and no build step.
 
-**Live site:** https://aakash192.github.io/portfolio/
+**Live site:** https://aakash-suryavanshi.netlify.app/ (also on GitHub Pages: https://aakash192.github.io/portfolio/)
 
 ## What is on the page
 
@@ -13,6 +13,7 @@ My personal portfolio: a single page static site built with plain HTML, CSS and 
 | Skills | Grouped by area: cloud platforms, infrastructure as code, containerization, data visualization, programming |
 | Experience | Current and recent roles |
 | Projects | Cards with a description and a link to the code, generated from data in `script.js` |
+| Certifications | Professional certifications |
 | Volunteering | IT support and volunteer roles |
 | Education | Timeline of my three qualifications |
 
@@ -35,7 +36,7 @@ python3 -m http.server 8000
 
 ## Deployment
 
-The site is hosted with GitHub Pages.
+The site is hosted on Netlify and GitHub Pages, both from the `main` branch.
 
 ## Project structure
 

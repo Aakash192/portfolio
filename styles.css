@@ -305,6 +305,11 @@ section h2 {
 .experience-item .technologies {
     margin-bottom: 0;
 }
+/* Certifications section (items reuse the education styles) */
+.certifications {
+    background-color: white;
+}
+
 /* Volunteering section */
 .volunteering {
     background-color: #f8f9fa;

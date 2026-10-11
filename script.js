@@ -2,6 +2,13 @@
 // Add a githubUrl to show a "View code" link on the card.
 const projects = [
     {
+        title: "PermitPilot: AI Agent for Calgary Housing Permits",
+        description: "Built at the IEEE YP Industry Hackathon 2026. An AI agent that reorders Calgary's housing permit review queue so planners clear the files that create the most homes first, putting 17 times more homes into the same weekly workload and re-planning when the team loses planners. It uses OpenAI function calling with six read only, schema validated tools, so every number comes from Python and every decision is explained with evidence. Team project: I built the backend, AI agent, data pipeline and the AWS deployment on EC2 behind CloudFront and WAF.",
+        image: "images/covers/permitpilot.svg",
+        technologies: ["Python", "FastAPI", "OpenAI API", "Docker", "AWS EC2", "CloudFront", "React"],
+        githubUrl: "https://github.com/Aakash192/PermitPilot"
+    },
+    {
         title: "Franquicia Boost AI Chatbot",
         description: "Production RAG chatbot for Franquicia Boost's website. It answers questions from franchise disclosure documents, including their fee tables, and returns exact answers for known questions before falling back to retrieval. Deployed on AWS EC2 with Gunicorn and Nginx and embedded in the company's WordPress site.",
         image: "images/covers/franquicia-chatbot.svg",
