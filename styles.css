@@ -254,6 +254,22 @@ section h2 {
     color: #ffffff;
 }
 
+.nda-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    align-self: flex-start;
+    margin-top: auto;
+    padding: 0.45rem 0.85rem;
+    border: 1px dashed #9ca3af;
+    border-radius: 6px;
+    background: #f8f9fa;
+    color: #555;
+    font-size: 0.875rem;
+    font-weight: 600;
+    cursor: default;
+}
+
 /* Experience section */
 .experience {
     background-color: white;

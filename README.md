@@ -23,7 +23,7 @@ My personal portfolio: a single page static site built with plain HTML, CSS and 
 - `script.js` keeps the projects as an array of objects. On page load it builds one card per project with `createProjectCard` and fills the grid. It also enables smooth scrolling for in page links and sets the footer year.
 - `styles.css` handles layout with CSS grid (`auto-fit` columns for skills and projects). At 768px wide and below, the grids collapse to a single column for phones.
 
-To add or change a project, edit the array at the top of `script.js`. No other file needs to change.
+To add or change a project, edit the array at the top of `script.js`. No other file needs to change. For client work with private code, set `nda: true` on the project: its card shows an "Under NDA" badge instead of a code link.
 
 ## Run it locally
 
